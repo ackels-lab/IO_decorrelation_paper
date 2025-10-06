@@ -35,6 +35,8 @@ Together, these results suggest that the olfactory bulb implements efficient inf
 Clone this repository:
 git clone https://github.com/ackels-lab/IO_decorrelation_paper.git
 
+Download datasets from our Zenodo archive:
+👉 https://zenodo.org/records/XXXXX
 
 Create a conda environment with the required dependencies:
 conda create -n ob_io_env python=3.9 numpy pandas scipy matplotlib seaborn jupyter scikit-learn
