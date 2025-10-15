@@ -38,22 +38,6 @@ Clone this repository:
 git clone https://github.com/ackels-lab/IO_decorrelation_paper.git
 ```
 
-**Raw data (.h5)** are hosted on Zenodo: [10.5281/zenodo.XXXXXXX](https://doi.org/XXX/zenodo.XXXXXXX)
-
-- `glom_omp_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
-- `glom_tbet_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
-- `processed_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/processed_data.h5
-
-**Quick download (recommended target folder):**
-```bash
-mkdir -p data/raw
-cd data
-# resume-safe downloads
-wget -c https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
-wget -c https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
-wget -c https://zenodo.org/record/XXXXXXX/files/processed_data.h5
-```
-
 Set up the environment using the provided environment.yml file:
 ```bash
 conda env create -f environment.yml
@@ -72,6 +56,21 @@ notebooks/IO_main_figures.ipynb
 This will reproduce the key panels of the main figures.
 (Additional scripts and figure panels will be released after peer review.)
 
+**Raw data (.h5)** is downloaded via the notebook and is  hosted on Zenodo: [10.5281/zenodo.XXXXXXX](https://doi.org/XXX/zenodo.XXXXXXX)
+
+- `glom_omp_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
+- `glom_tbet_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
+- `processed_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/processed_data.h5
+
+**Quick download (recommended target folder):**
+```bash
+mkdir -p data/raw
+cd data
+# resume-safe downloads
+wget -c https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
+wget -c https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
+wget -c https://zenodo.org/record/XXXXXXX/files/processed_data.h5
+```
 
 🙌 Acknowledgements
 
