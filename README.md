@@ -38,8 +38,21 @@ Clone this repository:
 git clone https://github.com/ackels-lab/IO_decorrelation_paper.git
 ```
 
-Download datasets from our Zenodo archive:
-👉 https://zenodo.org/records/XXXXX
+**Raw data (.h5)** are hosted on Zenodo: [10.5281/zenodo.XXXXXXX](https://doi.org/XXX/zenodo.XXXXXXX)
+
+- `glom_omp_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
+- `glom_tbet_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
+- `processed_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/processed_data.h5
+
+**Quick download (recommended target folder):**
+```bash
+mkdir -p data/raw
+cd data
+# resume-safe downloads
+wget -c https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
+wget -c https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
+wget -c https://zenodo.org/record/XXXXXXX/files/processed_data.h5
+```
 
 Set up the environment using the provided environment.yml file:
 ```bash
