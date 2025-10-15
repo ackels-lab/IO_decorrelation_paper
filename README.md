@@ -56,7 +56,8 @@ notebooks/IO_main_figures.ipynb
 This will reproduce the key panels of the main figures.
 (Additional scripts and figure panels will be released after peer review.)
 
-**Raw data (.h5)** is downloaded via the notebook and is  hosted on Zenodo: [10.5281/zenodo.XXXXXXX](https://doi.org/XXX/zenodo.XXXXXXX)
+
+**Raw data (.h5)** is downloaded via the notebook and is hosted on Zenodo: [10.5281/zenodo.XXXXXXX](https://doi.org/XXX/zenodo.XXXXXXX)
 
 - `glom_omp_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
 - `glom_tbet_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
@@ -64,13 +65,14 @@ This will reproduce the key panels of the main figures.
 
 **Quick download (recommended target folder):**
 ```bash
-mkdir -p data/raw
+mkdir -p data
 cd data
 # resume-safe downloads
 wget -c https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
 wget -c https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
 wget -c https://zenodo.org/record/XXXXXXX/files/processed_data.h5
 ```
+
 
 🙌 Acknowledgements
 
