@@ -1,9 +1,9 @@
 # IO_decorrelation_paper
 
-👋 **Welcome to the IO_decorrelation_paper repo.**  
+**Welcome to the IO_decorrelation_paper repo.**  
 Here you'll find the core analysis code and data supporting our study on how input and output representations in the olfactory bulb are transformed to support odour decorrelation and improved discriminability.
 
-**Input–output transformations in the olfactory bulb support odour decorrelation**  
+**Decorrelation by gain control in the mouse olfactory bulb**  
 ([preprint link])
 
 ---
@@ -44,7 +44,7 @@ conda activate ob_io_env
 
 Update file paths in scripts/analysis_main.py according to your local directory structure.
 
-Run the main analysis notebook to reproduce the results for the key figures.
+Run the main analysis notebook to reproduce the results for key panels of the main figures.
 (Additional scripts and figure panels will be released after peer review.)
 
 
