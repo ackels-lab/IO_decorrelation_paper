@@ -41,13 +41,22 @@ git clone https://github.com/ackels-lab/IO_decorrelation_paper.git
 Download datasets from our Zenodo archive:
 👉 https://zenodo.org/records/XXXXX
 
-Create a conda environment with the required dependencies:
-conda create -n ob_io_env python=3.9 numpy pandas scipy matplotlib seaborn jupyter scikit-learn
+Set up the environment using the provided environment.yml file:
+```bash
+conda env create -f environment.yml
 conda activate ob_io_env
+```
 
-Update file paths in scripts/analysis_main.py according to your local directory structure.
+Start Jupyter Notebook: 
+```bash
+jupyter notebook
+```
 
-Run the main analysis notebook to reproduce the results for key panels of the main figures.
+Then open and run the main notebook:
+```bash
+notebooks/IO_main_figures.ipynb
+```
+This will reproduce the key panels of the main figures.
 (Additional scripts and figure panels will be released after peer review.)
 
 
