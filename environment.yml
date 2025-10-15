@@ -16,4 +16,6 @@ dependencies:
   - jupyterlab=4.0.*
   - pip
   - pip:
+
     - pymatreader==0.0.31
+    - requests
