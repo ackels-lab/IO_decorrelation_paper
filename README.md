@@ -33,7 +33,10 @@ Together, these results suggest that the olfactory bulb implements efficient inf
 ## 👩‍💻 Getting started
 
 Clone this repository:
+
+```bash
 git clone https://github.com/ackels-lab/IO_decorrelation_paper.git
+```
 
 Download datasets from our Zenodo archive:
 👉 https://zenodo.org/records/XXXXX
