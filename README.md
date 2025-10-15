@@ -63,17 +63,6 @@ This will reproduce the key panels of the main figures.
 - `glom_tbet_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
 - `processed_data.h5` — direct link: https://zenodo.org/record/XXXXXXX/files/processed_data.h5
 
-**Quick download (recommended target folder):**
-```bash
-mkdir -p data
-cd data
-# resume-safe downloads
-wget -c https://zenodo.org/record/XXXXXXX/files/glom_omp_data.h5
-wget -c https://zenodo.org/record/XXXXXXX/files/glom_tbet_data.h5
-wget -c https://zenodo.org/record/XXXXXXX/files/processed_data.h5
-```
-
-
 🙌 Acknowledgements
 
 This work was supported by the Francis Crick Institute, University College London, and the University of Bonn, and benefited from discussions with colleagues in physiology, systems neuroscience, and computational modeling.
