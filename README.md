@@ -57,11 +57,11 @@ This will reproduce the key panels of the main figures.
 (Additional scripts and figure panels will be released after peer review.)
 
 
-**Raw data (.h5)** is downloaded via the notebook and is hosted on Zenodo: [10.5281/zenodo.17359150](https://doi.org/10.5281/zenodo.17359151)
+**Raw data (.h5)** is downloaded via the notebook and is hosted on Zenodo: [10.5281/zenodo.17359151](https://doi.org/10.5281/zenodo.17359151)
 
-- `glom_omp_data.h5` — direct link: https://zenodo.org/record/17359150/files/glom_omp_data.h5
-- `glom_tbet_data.h5` — direct link: https://zenodo.org/record/17359150/files/glom_tbet_data.h5
-- `processed_data.h5` — direct link: https://zenodo.org/record/17359150/files/processed_data.h5
+- `glom_omp_data.h5` — direct link: https://zenodo.org/record/17359151/files/glom_omp_data.h5
+- `glom_tbet_data.h5` — direct link: https://zenodo.org/record/17359151/files/glom_tbet_data.h5
+- `processed_data.h5` — direct link: https://zenodo.org/record/17359151/files/processed_data.h5
 
 🙌 Acknowledgements
 
